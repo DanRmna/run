@@ -1,0 +1,36 @@
+{
+    "name": "Run",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "JoyBit": "github:alsrobot-microbit-makecode-packages/alsrobotjoybit#1.1.1",
+        "joyfrog": "github:kittenbot/pxt-joyfrog#v0.1.7",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.4.5",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.3",
+        "MakerBit-Pins": "github:1010technologies/pxt-makerbit-pins#v1.2.0",
+        "MakerBit-Touch": "github:1010technologies/pxt-makerbit-touch#v1.2.24",
+        "microbit-pxt-rotate": "github:bsiever/microbit-pxt-rotate#v0.1.6",
+        "pxt-plenbit": "github:plenprojectcompany/pxt-plenbit#v1.0.17",
+        "kittenwifi": "github:kittenbot/pxt-kittenwifi#v0.2.7",
+        "pxt-kitronik-halohd": "github:kitronikltd/pxt-kitronik-halohd#v0.2.5",
+        "Wait Until Custom Blocks": "github:teacherpinky/wait-until-blocks#v0.1.12"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.8",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
